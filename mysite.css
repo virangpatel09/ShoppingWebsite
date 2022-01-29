@@ -1,0 +1,292 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+.menubar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	background-color: white;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+a{
+	text-decoration: none;
+	color: #555;
+}
+p{
+	color: #555;
+}
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.col2{
+	flex-basis: 1;
+	min-width: 300px;
+}
+.col2 img{
+	max-width: 100%;
+	padding: 50px 0; 
+}
+.col2 h1{
+	font-size: 50px;
+	line-height: 60px;
+	margin: 25px 0;
+}
+.button{
+	display: inline-block;
+	background: #ff523b;
+	padding:8px 30px;
+	margin:30px 0;
+	border-radius: 30px;
+	color: White;
+}
+.button:hover{
+	background: #563434;
+}
+.head{
+	background: radial-gradient(#A1FFCE,#FAFFD1);
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.categorirs{
+	margin: 70px 0px; 
+}
+.col3{
+	flex-basis: 1;
+	margin: 25px;
+}
+.col3 img{
+	width: 350px;
+	height: 259px;
+}
+.container2{
+	padding-left: 7%;
+	padding-right: 7%;
+	margin: auto;
+	padding-top: 100px;
+}
+.col4{
+	flex-basis: 1;
+	margin-bottom: 50px;
+	transition: transform 0.5s;
+}
+.col4:hover{
+	transform: translate(0,-20px);
+}
+.col4 img{
+	width: 250px;
+	height: 259px; 
+}
+.des{
+	padding-left: 45px;
+}
+.container3{
+	margin: 20px;
+	padding-top: 100px;
+	scroll-behavior: smooth;
+}
+.row2{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.title{
+	text-align: center;
+	margin: 0 auto 80px;
+	position: relative;
+	line-height: 60px;
+	color:#555;
+	text-decoration: #ff523b double underline;
+}
+.rating .fa{
+	color:#ff523b;
+}
+.footer-basic {
+  padding:40px 0;
+  color:#f0f9ff;
+  background-color:#282d32;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+.nagbt{
+	margin-left: 10%;
+	margin-bottom: 50px;
+}
+.nagbt span{
+	display:inline-block;
+	border: 1px solid #ff523b;
+	margin-left: 10px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	background: #ff523b;
+	border-radius: 10px;
+}
+.cartrow{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.cartcol4{
+	flex-basis: 1;
+	margin-bottom: 50px;
+}
+.addbutton{
+	display: inline-block;
+	background: #ff523b;
+	padding:8px 30px;
+	border-radius: 30px;
+	color: White;
+}
+.cart1{
+		height: 200px;
+		width: 200px;
+		border-style: solid;
+		border-color: #00ff00;
+		float: left;
+		overflow : scroll;
+		margin-left: 25%;
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: scroll;
+  transition: 0.5s;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+label{ 
+  	padding:15px;    
+  	border: none;  
+  	background: #ffffff;
+	width:30%; 
+  	display: inline-block;  
+} 
+input[type=text], input[type=password], textarea ,input[type=Date] {    
+  padding:15px;  
+  border: none;  
+  width:60%;
+  background: #DCDCDC; 
+  display: inline-block;   
+} 
+textarea{
+	width: 90%;
+}
+.row3{
+	display: flex;
+	flex-wrap: wrap;
+}
+.col-c1{
+	flex-basis: 50%;
+}
+.ChekoutForm{
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+.col-c2{
+	flex-basis: 50%;
+}
+.col-c2 input[type=text]{
+  padding:15px;  
+  border: none;  
+  width:50%;
+  background: #DCDCDC; 
+  display: inline-block;
+}
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+  display: inline-block;
+}

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HomePage</title>
+	<link rel="stylesheet" type="text/css" href="mysite.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="mycart.js"></script>
+</head>
+<body>
+	<div class="head">
+	<div class="menubar">
+		<div class="logo">
+			<img src="images/fancode.jpg">
+		</div>
+		<nav>
+			<ul>
+				<li><a href="homepage.html">Home</a></li>
+				<li><a href="#rcbproduct">Product</a></li>
+				<li><span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fa fa-shopping-cart"></i></span></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="row">
+		<div class="col2">
+			<h1>Find all Marchandies<br> from  your favourite <br> Franchise</h1>
+			<a href="#rcbproduct" class="button">Explore</a>
+		</div>
+		<div class="col2">
+			<img src="images/cricket.png">
+		</div>
+	</div>
+</div>
+<!-----------categories--------->
+<div class="categories">
+	<div class="container2">
+	<div class="row">
+		<div class="col3">
+			<a href="#rcbproduct">
+			<img src="images/RCB_images/rcblogo.jpg">
+			</a>
+		</div>
+		<div class="col3">
+			<a href="#cskproduct">
+			<img src="images/CSK_images/csklogo.jpg">
+			</a>
+		</div>
+		<div class="col3">
+			<a href="#miproduct">
+			<img src="images/MI_images/milogo.jpg">
+			</a>
+		</div>
+	</div>
+</div>
+</div>
+<h2 class="title">Featured Product</h2>
+<div class="contatiner3" id="rcbproduct">
+	<div class="row2">
+	<div class="col4">
+		<img src="images/RCB_images/RCB REPLICA JERSEY.png">
+		<div class="des">
+		<h4>RCB REPLICA JERSE</h4>
+		<div class="rating">
+			<i class="fa fa-star "></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+		</div>
+		<p>1799 INR</p>
+		<button onclick="addtocart(this.id)" id="0" class="addbutton">ADD</button>
+	</div>
+	</div> 
+	<div class="col4">
+		<img src="images/RCB_images/RCB FAN JERSEY.png">
+		<div class="des">
+		<h4>RCB FAN JERSEY</h4>
+		<div class="rating">
+			<i class="fa fa-star "></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>1299 INR</p>
+		<button onclick="addtocart(this.id)" id="1" class="addbutton">ADD</button>
+	</div>
+	</div> 
+	<div class="col4">
+		<img src="images/RCB_images/RCB FANWEAR TEE-FOREST NIGHT.png">
+		<div class="des">
+		<h4>TEE-FOREST NIGHT</h4>
+		<div class="rating">
+			<i class="fa fa-star "></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>1490 INR</p>
+		<button onclick="addtocart(this.id)" id="2" class="addbutton">ADD</button>
+	</div>
+	</div> 
+</div>
+</div>
+<div class="contatiner3">
+	<div class="row2">
+	<div class="col4">
+		<img src="images/RCB_images/RCB FANWARE TEE.png">
+		<div class="des">
+		<h4>RCB FANWARE TEE</h4>
+		<div class="rating">
+			<i class="fa fa-star "></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+		</div>
+		<p>1199 INR</p>
+		<button onclick="addtocart(this.id)" id="3" class="addbutton">ADD</button>
+	</div>
+	</div> 
+	<div class="col4">
+		<img src="images/RCB_images/RCB FILP FLOPS.jpg">
+		<div class="des">
+		<h4>RCB FILP FLOPS</h4>
+		<div class="rating">
+			<i class="fa fa-star "></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+			<i class="fa fa-star-o" aria-hidden="true"></i>
+		</div>
+		<p>799 INR</p>
+		<button onclick="addtocart(this.id)" id="4" class="addbutton">ADD</button>
+	</div>
+	</div> 
+	<div class="col4">
+		<img src="images/RCB_images/RCB ELEVATED POLO.png">
+		<div class="des">
+		<h4>RCB ELEVATED POLO</h4>
+		<div class="rating">
+			<i class="fa fa-star "></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+		</div>
+		<p>1799 INR</p>
+		<button onclick="addtocart(this.id)" id="5" class="addbutton">ADD</button>
+	</div>
+	</div> 
+</div>
+</div>
+<div class="contatiner3" id="miproduct">
+	<div class="row2">
+	<div class="col4">
+		<img src="images/MI_images/MI REPLICA.png">
+		<div class="des">
+		<h4>MI REPLICA</h4>
+		<div class="rating">
+			<i class="fa fa-star "></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+		</div>
+		<p>1799 INR</p>
+		<button onclick="addtocart(this.id)" id="6" class="addbutton">ADD</button>
+	</div>
+	</div> 
+	<div class="col4">
+		<img src="images/MI_images/MI DROP CUT.png">
+		<div class="des">
+		<h4>MI DROP CUT</h4>
+		<div class="rating">
+			<i class="fa fa-star "></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>1299 INR</p>
+		<button onclick="addtocart(this.id)" id="7" class="addbutton">ADD</button>
+	</div>
+	</div> 
+	<div class="col4">
+		<img src="images/MI_images/MI POLO NEW.png">
+		<div class="des">
+		<h4>MI POLO NEW</h4>
+		<div class="rating">
+			<i class="fa fa-star "></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>1490 INR</p>
+		<button onclick="addtocart(this.id)" id="8" class="addbutton">ADD</button>
+	</div>
+	</div> 
+</div>
+</div>
+<div class="contatiner3" id="cskproduct">
+	<div class="row2">
+	<div class="col4">
+		<img src="images/CSK_images/CSK REPLICA.jpg">
+		<div class="des">
+		<h4>CSK REPLICA</h4>
+		<div class="rating">
+			<i class="fa fa-star "></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+		</div>
+		<p>1799 INR</p>
+		<button onclick="addtocart(this.id)" id="12" class="addbutton">ADD</button>
+	</div>
+	</div> 
+	<div class="col4">
+		<img src="images/CSK_images/CSK T-SHIRT.jpg">
+		<div class="des">
+		<h4>CSK T-SHIRT</h4>
+		<div class="rating">
+			<i class="fa fa-star "></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>1299 INR</p>
+		<button onclick="addtocart(this.id)" id="13" class="addbutton">ADD</button>
+	</div>
+	</div> 
+	<div class="col4">
+		<img src="images/CSK_images/CSK BAGPACK.jpg">
+		<div class="des">
+		<h4>CSK BAGPACK</h4>
+		<div class="rating">
+			<i class="fa fa-star "></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>1490 INR</p>
+		<button onclick="addtocart(this.id)" id="14" class="addbutton">ADD</button>
+	</div>
+	</div> 
+</div>
+</div>
+
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">FANCODE SHOP © 2021</p>
+        </footer>
+    </div>
+    <div id="myNav" class="overlay">
+  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  		<div class="overlay-content" id="ocon">
+  			<div class="ChekoutForm">
+  				<form name=CheckForm onsubmit="return validateForm()" action="thanks.html">
+  				<div class="row3">
+  					<div class="col-c1">
+  						<p><b>PERSONAL INFORMATION</b></p>
+  						<label>NAME</label><input type="text" name="name"  size="15" required/><br>
+  						<label>EMAIL</label><input type="text" id="email"  size="15" required/><br>
+  						<label>PHONENO</label><input type="text" name="country code" placeholder="Country Code"  value="+91" size="2" style="width:10%;"><input type="text" id="phonet" style="width:50%;" required> <br> 
+  						<label>Address</label><br> 
+						<textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+						</textarea><br> 
+						<hr>
+	  					<div class="row3">
+	  						<div class="col-c2">
+	  							<label>STATE</label><input type="text" name="state"  size="15" required/><br>
+	  						</div>
+	  						<div class="col-c2">
+	  							<label>PINCODE</label><input type="text" id="pincode"  size="15" required/><br>
+	  						</div>
+	  					</div>
+	  					<br>
+	  					<p><b>PAYMENT INFORMATION</b></p>
+	  					<label>ACCEPTED CARD</label>
+	  					<div class="icon-container">
+			              <i class="fa fa-cc-visa" style="color:navy;"></i>
+			              <i class="fa fa-cc-amex" style="color:blue;"></i>
+			              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+			              <i class="fa fa-cc-discover" style="color:orange;"></i>
+			            </div>
+			            <br>
+			            <label>NAME</label><input type="text" name="cardname"  size="15" required/><br>
+			            <label>CRADIT CARD NO.</label><input type="text" id="ccno" size="15" required/><br>
+			            <label>EXPIRE DATE</label><input type="date" id="edate" size="15" required/><br>
+  					</div>
+  				    <div class="col-c1">
+  				    	<p><b>MY CART</b></p>
+  				    	<div class="row3">
+  				    		<div class="col-c2">
+  								<div class="cartp" id="ocon1"></div>
+  							</div>
+  							<div class="col-c2">
+  								<div class="cartp" id="price"></div>
+  							</div>
+  						</div>
+  						<div class="row3">
+  				    		<div class="col-c2">
+  								<p>TOTAL</p>
+  							</div>
+  							<div class="col-c2">
+  								<div class="price" id="totalprice">
+  								</div>
+  							</div>
+  						</div>
+  						<div class="purchase">
+  							<button onclick="" id="0" class="addbutton">COMPLETE PURCHASE</button>
+  						</div>
+  					</div>
+  				</div>
+  				</form>
+  			</div>
+  		</div>
+	</div>
+
+</body>
+</html>
